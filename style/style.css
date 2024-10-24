@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.contaniner{
+    text-align: center;
+}
+.btn{
+    padding: 15px 22px 15px 22px;
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+
+background: rgb(82, 195, 3);
+border: none;
+
+}
+#hero{
+    height: 800px;
+
+    background-image:  linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("../make-essential-UI-components-Resources-main/assets/hero-bg.png");
+    background-position: center;
+    justify-items: center;
+    align-content: center;
+    
+   
+}
+#hero .hero-con{
+    width: 726.33px;
+    /* margin: 0 auto;we can do it in parent section by align items and justify-contetn */
+}
+#hero .hero-con .subtitle{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+gap: 10px;
+
+}
+#hero .hero-con .title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: center;
+    gap: 16px;
+}
+#hero .hero-con .des{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 13px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+gap: 22PX;
+    margin-bottom: 22px;
+
+}
+#card-box{
+    width: 900px;
+    margin: 50px auto;
+    
+}
+#card-box .title .tt{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+#card-box .title .hh{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 34px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: center;
+}
+#card-box .contaniner{
+    margin-top: 120px;
+}
+#card-box .contaniner{
+    margin-top: 35px;
+}
+.card{
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .img-box{
+    width: 280 px;
+}
+.card .img-box img{
+    width: 100%;
+}
+#card-box .title{
+    margin-bottom:35px;
+}
+.card .Shop{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+padding: 14px 32px 14px 32px;
+border-radius: 8px;
+
+background: rgba(82, 195, 3, 0.15);
+
+}
+#card-box .card-contaniner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#footer {
+    display: flex;               /* Flexbox to align items in a row */
+    flex-direction: row;         /* Row layout */
+    align-items: center;         /* Vertically center the content */
+    justify-content: space-between; /* Space between image and text */
+    width: 100%;                 /* Full width of the container */
+    padding: 0px;               /* Optional padding */
+}
+
+#footer .img {
+    flex: 0 0 auto;              /* Image block won't grow or shrink */
+    width: 800px;                /* Set width for the image container */
+}
+
+#footer .img img {
+    width: 100%;                 /* Image takes the full width of its container */
+    height: 70%;                /* Maintain image's aspect ratio */
+}
+
+#footer .text {
+    flex: 1;                     /* Text block grows to fill remaining space */
+    padding-left: 0px;          /* Space between image and text */
+}
+
+#footer .ti {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 30px;             /* Font size for title */
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align:top;
+}
+
+#footer .de {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;             /* Adjusted font size for description text */
+    font-weight: 500;
+    line-height: 20px;           /* Adjusted line height */
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#footer .fo {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
